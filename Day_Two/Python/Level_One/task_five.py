@@ -1,0 +1,6 @@
+celcius = int(input("Enter celcius number => "))
+
+farenheit = (celcius * 9/5) + 32
+
+print(f"{celcius} in celcius => {farenheit}")
+
