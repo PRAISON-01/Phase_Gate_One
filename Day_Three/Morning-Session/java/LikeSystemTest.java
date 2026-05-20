@@ -23,6 +23,33 @@ public class LikeSystemTest{
         assertEquals(actual, expected);
     }
 
+     @Test
+    public void testThatFuctionReturnsNameofLikers(){
+        
+        String[] array = {"Praise"};
+        String expected = "Praise  and eob likes this";
+        String actual = LikeSystem.collectName(array);
+        assertEquals(actual, expected);
+    }
+
+     @Test
+    public void testThatFuctionReturnsNameofLikers(){
+        
+        String[] array = {"Praise"};
+        String expected = "Praise likes this";
+        String actual = LikeSystem.collectName(array);
+        assertEquals(actual, expected);
+    }
+
+     @Test
+    public void testThatFuctionReturnsNameofLikers(){
+        
+        String[] array = {"Praise"};
+        String expected = "Praise likes this";
+        String actual = LikeSystem.collectName(array);
+        assertEquals(actual, expected);
+    }
+
     
 
 }

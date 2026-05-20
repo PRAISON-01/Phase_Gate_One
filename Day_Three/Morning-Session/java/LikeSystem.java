@@ -5,17 +5,17 @@ public class LikeSystem{
        
         
         
-        for(int count = 1; count < names.length ;count++){
+        
             if(names.length == 1){
             
-                return "%s likes this" + names[count];
+                return "%s likes this" + names[0];
             }
            else if(names.length == 2){
-                return String.format("%s and %s likes this"+ names[count]);
+                return "%s and %s likes this"+ names[0]+ names[1];
             }
             
             else if(names.length == 3){
-                return "%s , %s and %s likes this " + names[count];
+                return "%s , %s and %s likes this " + names[0]+ names[1]+names[2];
 
 //            else if(count = 4){
 //                return System.out.printf("% ")
